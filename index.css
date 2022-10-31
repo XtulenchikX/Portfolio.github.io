@@ -1,1 +1,47 @@
+body {
+    color: #000080;
+    font-size: 200%;
+    background: #c7b39b url(./fon.jpg); /* Цвет фона и путь к файлу */
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+h1 {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 80px;
+    text-align: center;
+    color: #ffffff;
+}
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+    min-width: 160px;
+    border: none;
+    float: none;
+    position: fixed;
+    top: 0;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: fixed;
+    top: 60px;
+    background-color: #f1f1f1;
+    min-width: 160px;
 
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover {background-color: #ddd;}
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
