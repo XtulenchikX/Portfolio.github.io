@@ -1,7 +1,7 @@
 body {
     color: #000080;
     font-size: 200%;
-    background: #c7b39b url(./fon.jpg); /* Цвет фона и путь к файлу */
+    background: #c7b39b url(./bg1.jpg); /* Цвет фона и путь к файлу */
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
